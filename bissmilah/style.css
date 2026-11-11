@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 200px;
+    margin-top: 140px;
+}
+.text{
+    font-size:25px;
+}
+.text h3{
+    color: #167D8D; 
+    font-weight: bold;  
+}
+.text h1{
+    color: #071B2B;
+    font-weight: bold;
+}
+.text p{
+    color: black;
+    font-size: 20px;
+}
+.form-container{
+    width: 500px;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form-container input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #071B2B;
+    border-radius: 5px;
+    outline: #071B2B;
+}
+.form-container button{
+    width: 100%;
+    padding: 10px;
+    background-color: #071B2B;
+    color: #B9E4E8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container{
+    display: list-item;
+    margin-top: 150px;
+    background-color: #071B2B;
+    padding: 50px;
+    margin-inline: 400px;
+    text-align: center;
+    border-radius: 20px;
+    list-style: none;
+    box-shadow: 0 4px 8px black;
+    color: #EEEEEE;
+}
+.container h1{
+    margin-bottom:21px;
+}
+.container button{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #167D8D;
+    border: none;
+    border-radius: 8px;
+    padding-block: 20px;
+}
+.container button a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 15px;
+}
+.side1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 200px;
+    margin-top: 130px;
+}
+.form-regis{
+    width: 500px;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form-regis input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #071B2B;
+    border-radius: 5px;
+    outline: #071B2B;
+}
+.form-regis button{
+    width: 100%;
+    padding: 10px;
+    background-color: #071B2B;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-petugas{
+    width: 500px;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form-petugas input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #071B2B;
+    border-radius: 5px;
+    outline: #071B2B;
+}
+.form-petugas button{
+    width: 100%;
+    padding: 10px;
+    background-color: #071B2B;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.table-form a{
+    text-decoration: none;
+    color: #071B2B;
+}
+.table-form a:hover{
+    color: #B9E4E8;
+    background-color: #071B2B;
+    padding: 3px;
+    border-radius: 2px;
+}
+.card{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.card h1{
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: #167D8D;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+.table-form{
+    margin-block: 10px;
+}
+table{
+    border-collapse: collapse;
+    padding: 5px;
+    border: solid 2px black;
+    width: 100%;
+}
+th, td{
+    padding: 5px;
+}
+.logout{
+    padding: 5px;
+}
+th{
+    background-color: #071B2B;
+    color: #EEEEEE;
+}
+.card-daftar{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-inline: 250px;
+    padding-block: 25px;
+    box-shadow: 0 4px 8px #071B2B;
+}
+.card-daftar input{
+    width: 100%;
+    height: 35px;
+    border: 2px solid #071B2B;
+    outline: #071B2B;
+    border-radius: 7px;
+    padding-left: 4px;
+}
+.card-daftar h1{
+    margin-bottom: 20px;
+}
+.card-daftar button{
+    width: 100%;
+    border: none;
+    background-color: #071B2B;
+    color: #B9E4E8;
+    border-radius: 14px;
+    padding-block: 14px;
+}
+.logout{
+    color: #EEEEEE;
+    background-color: #071B2B;
+    border-radius: 13px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    margin-left: 450px;
+}
